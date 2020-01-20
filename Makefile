@@ -8,9 +8,9 @@ CXXFLAGS = -std=c++11 -Wall
 LDFLAGS = 
 
 # Makefile settings - Can be customized.
-APPNAME = myapp
+APPNAME = GCI 3
 EXT = .cpp
-SRCDIR = src
+SRCDIR = c:\Users\Admin\Desktop\GCI 3\
 OBJDIR = obj
 
 ############## Do not change anything from here downwards! #############
