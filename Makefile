@@ -1,8 +1,11 @@
 main: main.o
-	g++ Main.o -o main
+	gcc main.o -o hello.exe
 
 main.o: main.cpp
-	g++ -c main.cpp
+	gcc -c main.cpp
 
 clean:
-	rm *.o math
+	rm *.o main.o
+
+run:
+	hello.exe
